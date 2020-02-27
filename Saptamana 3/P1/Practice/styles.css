@@ -1,0 +1,48 @@
+p::first-letter {
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.main {
+    font-family: Arial;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+a[href="https://wantsome.ro"] {
+    color: green;
+
+}
+a[href*="wantsome"] {
+    color: green;
+}
+a[title="External link"] {
+    font-style: italic;
+}
+
+a:hover {
+    color:red;
+    font-size: 40px;
+}
+
+footer a:last-child:focus {
+    text-decoration: underline;
+}
+
+footer::after {
+    content: "continut adaugat din ccs";
+    background: yellow;
+}
+
+
+
+
