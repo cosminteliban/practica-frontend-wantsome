@@ -22,9 +22,7 @@ a[href="https://wantsome.ro"] {
     color: green;
 
 }
-a[href*="wantsome"] {
-    color: green;
-}
+
 a[title="External link"] {
     font-style: italic;
 }
