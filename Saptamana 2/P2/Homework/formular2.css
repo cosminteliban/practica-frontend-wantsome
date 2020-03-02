@@ -1,0 +1,27 @@
+body {
+    background-color:rgb(0, 0, 0);
+  }
+
+ div > label {
+    font-family: 'Lacquer';
+    font-size: 30px;
+    color: red;
+ } 
+
+h2 {
+    font-size: 35px;
+    background-color: rgb(255, 62, 62);
+    top: 1%;
+    right: 50%;
+    position: absolute;
+}
+
+h1, h2, h3 {
+    color: wheat;
+}
+
+div {
+    border-style: dotted;
+    color: white;
+    margin: 70px 90px;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: lightseagreen;
+  }
+
+h2 {
+    font-size: 50px;
+background-color:peachpuff;
+font-family: fantasy;
+color: chocolate;
+}
+
+div > label {
+    font-weight: bold;
+    font-size: 35px;
+    color:rgb(95, 69, 2);
+}
