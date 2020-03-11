@@ -1,0 +1,33 @@
+
+  nav a {
+    color:purple;
+}
+
+nav {
+    float:left;
+    border: 3px solid purple;
+   width: 150px;
+
+}
+
+
+.container {
+    width: 1156px;
+    border-color: teal;
+}
+
+section {
+    border: 3px solid yellow;
+}
+
+.rightPanel{
+    float: right;
+    width: 1000px;
+}
+
+footer {
+    clear: both;
+    border: 3px solid green;
+    width: 1156px;
+    text-align: center;
+}

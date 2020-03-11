@@ -1,0 +1,30 @@
+
+  nav a {
+    color:purple;
+}
+
+nav {
+    position: absolute;
+    border: 3px solid purple;
+    width: 140px;
+
+}
+
+ul {
+    padding-left: 30px;
+}
+
+.container {
+    margin-left: 0;
+    border-color: teal;
+}
+
+section {
+    margin-left: 146px;
+    border: 3px solid yellow;
+}
+
+footer {
+    text-align: center;
+    border: 3px solid green;
+}
