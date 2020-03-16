@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    background-image: linear-gradient(to left, #3d7eaa, #ffe47a);
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+
+}
+.mancare {
+    display:grid;
+}
+.mancare img{
+    width: 100%;
+
+    
+    place-self: center;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: auto;
+    }
+}
