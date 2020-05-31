@@ -1,0 +1,5 @@
+@mixin countrySelect ($color, $fontsize) {
+    background-color: $color;
+    font-size: $fontsize;
+    width: 200px;
+}

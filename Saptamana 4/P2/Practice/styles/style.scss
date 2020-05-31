@@ -1,0 +1,24 @@
+@import 'mixins';
+@import 'nesting';
+@import 'variables';
+@import 'operators';
+
+label {
+    color: yellow;
+}
+
+input {
+    color: $inputColor;
+}
+
+// select {
+//     @include countrySelect;
+// }
+
+#tara {
+    @include countrySelect(pink, 25px);
+}
+
+#oras {
+    @include countrySelect(brown, 15px);
+}

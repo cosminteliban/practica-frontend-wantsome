@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Form Homework </title>
+    <link rel="stylesheet" href="./styles/style.css"/>
+</head>
+
+<body>
+    <h2>Cerinta 1</h2>
+    <form>
+        <div>
+            <br><label for="Fam">Nume:</label>
+            <br><input type="text" id="Fam" name="Fam" placeholder="aici pui numele" required><br>
+            <br><label for="Pren">Prenume:</label>
+            <br><input type="text" id="Pren" name="Pren" placeholder="aici vine prenumele" required><br>
+        </div>
+        <br><label for="gen">Gen:</label>
+        <br><input type="radio" id="gen" name="gen" value="mas">
+        <label for="mas">Masculin</label>
+        <input type="radio" id="mas" name="gen" value="fem">
+        <label for="fem">Feminin</label>
+        <input type="radio" id="fem" name="gen" value="nu">
+        <label for="nu">Nu spun</label>
+        <div>
+            <br><label for="varsta">Varsta(intre 18-85 ani):</label><br>
+            <br><input type="number" id="varsta" name="varsta" min="18" max="85" value="18">
+        </div>
+        <div>
+            <br><label for="tara">Tara:</label><br>
+            <br><select id="tara" name="tara">
+                <option value="Afganistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="American Samoa">American Samoa</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Anguilla">Anguilla</option>
+                <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Romania">Romania</option>
+            </select>
+        </div>
+        <div>
+            <br><label for="oras">Oras:</label><br>
+            <br><select id="oras" name="city">
+                <option value="Botosani">Botosani</option>
+                <option value="Dorohoi">Dorohoi</option>
+                <option value="Iasi">Iasi</option>
+                <option value="Bacau">Bacau</option>
+                <option value="Vaslui">Vaslui</option>
+                <option value="Suceava">Suceava</option>
+            </select>
+        </div>
+        <div>
+            <br><label for="adresa">Adresa:</label>
+            <input type="text" id="adresa" name="address" placeholder="unde stai">
+        </div>
+        <div>
+            <br><label for="codP">Cod Postal:</label>
+            <input type="text" id="codP" name="zip"><br>
+        </div>
+        <div>
+            <br><label for="email">Email:</label>
+            <br><input type="email" id="email" name="email" required><br>
+        </div>
+        <div>
+            <br><label for="mesaj">Mesaj:</label>
+            <br><textarea id="mesaj" name="mesaj"></textarea><br>
+        </div>
+        <div>
+            <br><label for="file">Ataseaza CV:</label><br>
+            <br><input type="file" id="file" name="file"><br>
+        </div>
+        <div>
+            <br><button type="submit">Trimite</button>
+            <button type="reset">Reseteaza</button><br>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
