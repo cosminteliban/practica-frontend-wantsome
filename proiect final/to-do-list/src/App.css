@@ -1,17 +1,29 @@
 body{
-  background-color: #877b66;
+  background-image: linear-gradient(180deg, #799249, #c1d898);;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
 .App{
-  background-color: #ffdf64;
+  background-image: linear-gradient(180deg, #fdd227, #fceaa1);
   min-height:600px;
   width: 400px;
   margin: 40px auto;
   border-radius: 20px;
 }
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  }
+  
+  #title {
+    font-weight: 800;
+    color: #9cb66c;
+  }
 
 #to-do-form input{
   background-color: #fff;
